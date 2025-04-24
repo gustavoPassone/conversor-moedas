@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <img id="logo" src="./img/logo.svg" alt="logo">
+        <div class="container">
+            <form>
+                <div class="user-input">
+                    <label for="valor">Valor</label>
+                    <input type="number" id="valor" placeholder="0,00">
+                </div>
+                <div class="user-input">
+                    <label for="moeda">Moeda</label>
+                    <select id="moeda">
+                        <option value="defaut">Selecione a moeda</option>
+                        <option value="USD-BRL">Dolar</option>
+                        <option value="EUR-BRL">Euro</option>
+                        <option value="GBP-BRL">Libras</option>
+                    </select>
+                </div>
+                <input type="button" value="Converter em reais" id="btn">
+            </form>
+        </div>
+        <div class="display-res">
+            <!-- <div class="resultado">
+            <p>U$ 1 = R$ 4,86</p>
+            <p>486,00 Reais</p>
+            </div> -->
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
